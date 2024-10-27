@@ -6,6 +6,7 @@ let weight = document.getElementById('weight').value;
 let height = document.getElementById('height').value;
 
 let bmi = (weight / (height * height))
+bmi = bmi.toFixed(2)
 //var calculateButton = document.querySelector(".calculate");
 //var result = document.querySelector(".result");
 //var statement = document.querySelector(".result-statement");
